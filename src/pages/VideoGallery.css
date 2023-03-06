@@ -1,0 +1,38 @@
+.video-gallery {
+    display: flex;
+  }
+  
+  .video-player {
+    width: 70%;
+    padding: 20px;
+  }
+  
+  .video-title {
+    font-size: 2em;
+    margin-bottom: 21px;
+    margin-top: 50px;
+  
+  }
+  
+  .video-list {
+    width: 30%;
+    padding: 20px;
+    background-color: #f5f5f5;
+    margin-top: 41px;
+  }
+  
+  .video-list-item {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .video-list-item:hover, .video-list-item.active {
+    background-color: #ddd;
+    cursor: pointer;
+  }
